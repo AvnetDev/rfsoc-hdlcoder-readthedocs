@@ -24,7 +24,7 @@ Required software
     * HDL Coder
     * MATLAB Coder
     * DSP System Toolbox is optional but most of the included examples use it
-    * Avnet RFSoC Explorer
+    * RFSoC Explorer
     * For MathWorks R2024a tools you must use v3.1.1 or newer of RFSoC Explorer
       (**do not use v3.1.0 or older for MathWorks tools R2024a or newer**)
     * Double check documentation to determine which MATLAB versions are
@@ -34,7 +34,7 @@ Required software
       additional toolboxes or add-ons
     * `Click to read formal requirements
       <https://www.mathworks.com/matlabcentral/fileexchange/73665-avnet-rfsoc-explorer-toolbox>`_
-* **Avnet HDL Coder for ZCU208 examples ZIP file** (see instructions below
+* **Tria HDL Coder for ZCU208 examples ZIP file** (see instructions below
   for more information)
 * **Several free add-on support packages**, depending on the MathWorks release
 
@@ -140,7 +140,7 @@ Use the Add-On Manager to search, this is how they appear:
 .. image:: ./images_zcu208/hdlzynqpackage.png
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Step  2 - Install Avnet RFSoC Explorer
+Step  2 - Install RFSoC Explorer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. warning:: For **Matlab R2024a release**,
@@ -148,17 +148,17 @@ Step  2 - Install Avnet RFSoC Explorer
 
 .. warning:: For **Matlab R2023 and older releases**.
   For R2023b you may use v3.1.0 or v3.1.1, but for R2023a and older
-  you must install older compatible versions. Double check Avnet's
+  you must install older compatible versions. Double check the
   notes in MathWorks Add-On manager for RFSoC Explorer Matlab
   compatiblity.
 
 From within MATLAB, once again open the Add-on explorer.
-And search for 'Avnet RFSoC Explorer', then install it:
+And search for 'RFSoC Explorer', then install it:
 
 .. image:: ./images_zcu208/rfexplorer2.png
 
 .. note::
-  While completing the RF Explorer setup for the ZCU208, make note of the
+  While completing the RFSoC Explorer setup for the ZCU208, make note of the
   networking IP setup and address that was used to setup RF Explorer.
   This will be used later to also setup HDL Coder for ZCU208.
 
@@ -172,7 +172,7 @@ Complete setting up RF Explorer for the ZCU208 by executing the following
 instructions, then return here to complete the rest of the HDL Coder setup
 instructions:
 
-* `Click to open instructions for setting up RF Explorer <https://rfsoc-mmw.readthedocs.io>`_
+* `Click to open instructions for setting up RFSoC Explorer <https://rfsoc-mmw.readthedocs.io>`_
 
 .. warning::
   Make sure you can communicate with the ZCU208 successfully across the network
@@ -181,7 +181,7 @@ instructions:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Step  3 - Setup the ZCU208 board hardware with the XM655 RF breakout card
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Completing the steps to install and use Avnet RFSoC Explorer will ensure the
+Completing the steps to install and use RFSoC Explorer will ensure the
 ZCU208 networking is also almost correctly setup for use with HDL Coder.
 If you want to run the included examples and collect live data, the
 **XM655 RF breakout board must also be attached to the ZCU208**. See the Xilinx
@@ -193,7 +193,7 @@ ZCU208 user and setup guide that came with your kit for how to do this.
   <https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/769228974/XM650+XM655+and+CLK104+Add-On+Cards+Hardware+Description>`_
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Step  4 - Obtain the Avnet HDL Coder for ZCU208 SD card with examples zip file
+Step  4 - Obtain the HDL Coder for ZCU208 SD card with examples zip file
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. warning::
   The SD card contents have been compiled for production silicon only.
@@ -201,7 +201,7 @@ Step  4 - Obtain the Avnet HDL Coder for ZCU208 SD card with examples zip file
   damage!  Before downloading the SD image please verify that your ZCU208
   development board has a production ZU48DR part.
 
-* `Click to download the Avnet HDL Coder for ZCU208 zip file
+* `Click to download the HDL Coder for ZCU208 zip file
   <https://github.com/AvnetDev/hdlcoder-zcu208-zip/releases/download/v1.0.4a/zcu208-hdlcoder.zip>`_
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -286,7 +286,7 @@ Step  7 - Format a micro SD card
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Obtain a 4GB or larger micro SD card, one should have been included with the
 ZCU208 kit. You may want to obtain a second card if you want to retain the
-Avnet RFSoC Explorer SD card that you setup prior.  Sandisk or Delkin SD cards
+RFSoC Explorer SD card that you setup prior.  Sandisk or Delkin SD cards
 are highly recommended but other brands may also work.
 
 First, use Windows or a Linux utility to format the SD card for the FAT32
