@@ -25,7 +25,7 @@ Required software
     * MATLAB Coder
     * DSP System Toolbox is optional but most of the included examples use it
     * Avnet RFSoC Explorer
-    * For MathWorks R2024a tools you must use v3.1.1 or newer of RFSoC Explorer
+    * For MathWorks R2024a or newer tools you must use v3.1.1 or newer of RFSoC Explorer
       (**do not use v3.1.0 or older for MathWorks tools R2024a or newer**)
     * Double check documentation to determine which MATLAB versions are
       supported
@@ -62,9 +62,9 @@ Required MathWorks licensed software:
     make use of it
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[For R2024a ONLY] required MathWorks and 3rd party free software
+[For R2024a or newer ONLY] required MathWorks and 3rd party free software
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-R2024a only requires the HDL Coder Support Package for Xilinx FPGA and SoC
+R2024a or newer, only requires the HDL Coder Support Package for Xilinx FPGA and SoC
 Devices
 
 Use the Add-On Manager from within MATLAB to install:
@@ -202,7 +202,7 @@ Step  4 - Obtain the Avnet HDL Coder for ZCU208 SD card with examples zip file
   development board has a production ZU48DR part.
 
 * `Click to download the Avnet HDL Coder for ZCU208 zip file
-  <https://github.com/AvnetDev/hdlcoder-zcu208-zip/releases/download/v1.0.4a/zcu208-hdlcoder.zip>`_
+  <https://github.com/AvnetDev/hdlcoder-zcu208-zip/releases/download/v1.0.5/zcu208-hdlcoder.zip>`_
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Step 5 - Prepare the contents of the ZCU208 micro SD card
@@ -223,9 +223,9 @@ the contents:
   or newer! If you are using Matlab R2024a or newer you MUST use v3.1.1 or newer
   ALSO! Explanation: MathWorks has changed APIs somewhat over the years, in R2024a the
   plugin interface changed for RFSoC HDL Coder.  RFSoC Explorer 3.1.1 suports both
-  R2023b and r2024a and now conditionally adds the correct plugin version.  The install
-  script would interfere with this.  The installhdl208.m script is left behind for
-  users that are using older matlab and RFSoC Explorer versions only.
+  R2023b, r2024a and newer and now conditionally adds the correct plugin version.  
+  The install script would interfere with this.  The installhdl208.m script is left 
+  behind for users that are using older matlab and RFSoC Explorer versions only.
 
 Next, enter and execute the installation script:
 
